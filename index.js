@@ -8,7 +8,7 @@ app.listen(process.env.PORT || 3000);
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'minefort.com', // Vào sảnh chờ chính của hệ thống Minefort trước
+    host: '://minefort.com', // Vào sảnh chờ chính của hệ thống Minefort trước
     port: 25565,                           
     username: 'Fynx Bot'
   });
